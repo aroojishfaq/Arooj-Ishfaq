@@ -1,0 +1,221 @@
+body{
+    background-image: linear-gradient(to bottom,white,rgb(210, 215, 231));
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h4{
+    color: white;
+    background-color: #3D5A99;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-stretch: 20px;
+    margin:0px;
+    height:67px;
+    padding-top: 20px;
+    padding-left: 190px;
+    width: 100%;
+}
+section{
+    display: flex;
+
+}
+ul{
+    list-style-type: none;
+    background-color: #3D5A99;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+}
+li{
+   color: white;
+}
+li>input[type=text]{
+    width:80%;
+}
+nav{
+    display:flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+}
+nav>li>input[type=submit]{
+    background-color:rgb(69, 103, 177);
+    border: 1px solid #0E385F;
+    margin-top:19px;
+    color: white;
+    font-size: 13px;
+   margin-left:0px;
+
+}
+nav>li>input[type=submit]:hover{
+    background-color:#3D5A99;
+}
+#part article:first-child{
+    width: 80%;
+}
+#part article:last-child{
+    width: 60%;
+}
+.img{
+    margin-top: 30px;
+   margin-left:195px;
+    width: 65%;
+    color: #0E385F;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    margin-bottom: 40px;
+}
+#end{
+    color:gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width:60%;
+    font-size: 11px;
+}
+h1+p{
+    color: black;
+    margin-top: 2px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#part form+h1{
+    font-family: 'Segoe UI';
+    font-size:35px;
+    margin: 0px;
+    color: #333333;
+
+}
+span{
+    color:navy;
+
+}
+span:hover{
+    color:navy;
+    text-decoration: underline;
+
+}
+label{
+    color:#90949C;
+    font-size:19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+   
+}
+#twof>input[type=text]{
+    color: black;
+    width:67%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding:4px;
+    border-radius: 4px;
+    background-color:white;
+    font-size:19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+    
+}
+#twof>div>input[type=text]{
+    width:33%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding:4px;
+    border-radius: 4px;
+    background-color:white;
+    font-size:19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 450;
+   color:grey;
+}
+
+select{
+    margin-top:0px ;
+padding:5px;
+padding-bottom:5px;
+
+}
+#radio{
+    margin-top:2px;
+    padding-top:0px;
+    padding-bottom:0px;
+    font-size:18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p+input[type=submit]{
+    background-color: rgb(61, 122, 40);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:20px;
+    font-weight:400;
+    width:38%;
+    padding:6px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+p+input[type=submit]:hover{
+    background-color: rgb(101, 179, 75);
+}
+footer{
+    padding-top: 3px;
+    background-color: white;
+    text-align: left;
+    font-size:12px;
+    padding-bottom:30px;
+}
+input+img{
+margin-top: 4px;
+}
+option+img{
+    margin-top: 4px;
+}
+div>ol{
+display: flex;
+list-style-type: none;
+width:95%;
+background-color: white;
+text-align: left;
+}
+ol>li{
+    color: #3D5A99;
+    font-size:12px;
+    padding-bottom: 15px;
+    padding-top:0px ;
+    padding-left:20px;
+    text-align: left;
+ 
+}
+ol+p{
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:grey;
+    padding-left: 60px;
+}
+
+@media screen and (max-width:900px){
+    section{
+        width:40%%;
+        display: inline;
+        margin-left:40px;
+    }
+    #twof{
+      margin-left: 60px;
+      width: 90%;
+}
+article+form{
+   
+    display: none;
+}
+nav>li{
+    margin-left:60px;
+}
+form+h1{
+    display: none;
+}
+h1+p{
+    display: none;
+}
+
+

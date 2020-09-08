@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(90deg,#27BFB9,#F3814E,#D62B4E,#7B5675,#0056B5);
+    position:relative ;
+    background-size: 300% 400%;
+    animation:  vary 10s ease-in-out infinite;
+}
+h1{
+  border: 4px solid white;
+  width: 500px;
+  height: 100px;
+padding: 5%;
+transform: translate(50% ,50%);
+position: absolute;
+text-transform: capitalize;
+color: beige;
+transition: transform 4s;
+
+}
+h1:hover{
+  transform: rotate(90deg);
+
+}
+
+
+@keyframes vary{
+    0%{
+      background-position: 0 50%;
+    }
+  50%{
+    background-position: 100% 50%;
+    }
+   100%{
+    background-position: 0 50%;
+    }
+}
